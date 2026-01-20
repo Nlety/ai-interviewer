@@ -1,16 +1,7 @@
 {
-    // ESA 边缘函数配置
     "name": "ai-interviewer",
-    "routes": [
-        {
-            "path": "/api/interview-storage",
-            "function": "interview-storage"
-        }
-    ],
-    "functions": [
-        {
-            "name": "interview-storage",
-            "entry": "edge-functions/interview-storage.js"
-        }
-    ]
+    "entry": "./edge-functions/interview-storage.js",
+    "assets": {
+        "directory": "./"
+    }
 }
